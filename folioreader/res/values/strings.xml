@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">کتابچه</string>
+    <string name="andada">وزیر</string>
+    <string name="lato">نازنین</string>
+    <string name="lora">رویا</string>
+    <string name="raleway">میترا</string>
+
+    <string name="andada_font">fonts/andada/Andada-Regular.ttf</string>
+    <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
+    <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
+    <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
+
+    <string name="minutes_left">%1$d دقیقه ·&#160;</string>
+    <string name="minute_left">%1$d دقیقه ·&#160;</string>
+    <string name="less_than_minute">کمتر از یک دقیقه ·&#160;</string>
+
+    <string name="copied">کپی شد</string>
+    <string name="send_to">ارسال به</string>
+
+    <string name="copy">کپی</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="define">تعریف کن</string>
+    <string name="highlight">هایلایت</string>
+
+    <string name="pages_left">%1$d صفحات باقی مانده</string>
+    <string name="page_left">%1$d صفحه باقی مانده</string>
+    <string name="highlights">هایلایت ها</string>
+    <string name="half_speed">1/2x</string>
+    <string name="onex">1x</string>
+    <string name="one_and_half">1&#160;1/2x</string>
+    <string name="two_x">2x</string>
+    <string name="style">استایل</string>
+    <string name="style_underline"><![CDATA[<u style=\" border-bottom: 1px dashed #bcbcbc;   text-decoration: none;\">استایل</u>]]></string>
+    <string name="full_path">full-path</string>
+    <string name="error_goToPage">goToPage error:</string>
+    <string name="zip">.zip</string>
+    <string name="htmlBodyTableOpen">&lt;html&gt;&lt;body&gt;&lt;table&gt;</string>
+    <string name="titlesMeta">&lt;tr&gt;&lt;td&gt;عنوان:&lt;/td&gt;</string>
+    <string name="authorsMeta">&lt;tr&gt;&lt;td&gt;نویسنده:&lt;/td&gt;</string>
+    <string name="contributorsMeta">&lt;tr&gt;&lt;td&gt;همکارها:&lt;/td&gt;</string>
+    <string name="languageMeta">&lt;tr&gt;&lt;td&gt;زبان:&lt;/td&gt;&lt;td&gt;</string>
+    <string name="publishersMeta">&lt;tr&gt;&lt;td&gt;انتشار دهنده:&lt;/td&gt;</string>
+    <string name="typesMeta">&lt;tr&gt;&lt;td&gt;Types:&lt;/td&gt;</string>
+    <string name="descriptionsMeta">&lt;tr&gt;&lt;td&gt;توضیحات:&lt;/td&gt;</string>
+    <string name="rightsMeta">&lt;tr&gt;&lt;td&gt;کپی رایت:&lt;/td&gt;</string>
+    <string name="tablebodyhtmlClose">&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="tocReference">&lt;tr&gt;&lt;td&gt;محتویات:&lt;/td&gt;</string>
+    <string name="change_Font">تغییر فونت</string>
+    <string name="change_Font_Color">تغییر رنگ:</string>
+    <string name="changeStyle">تغییر استایل</string>
+    <string name="blue_rgb">#0000ff</string>
+    <string name="red_rgb">#ff0000</string>
+    <string name="green_rgb">#00ff00</string>
+    <string name="black_rgb">#000000</string>
+    <string name="white_rgb">#ffffff</string>
+    <string name="error_CannotChangeStyle">خطا در تغییر استایل</string>
+    <string name="OK">تایید</string>
+    <string name="Cancel">انصراف</string>
+    <string name="SetSizeTitle">انداره پنل بالا:</string>
+    <string name="LanguageChooserTitle">دو زبان انتخاب کنید:</string>
+    <string name="parallelTextBool">parallelTextBool</string>
+    <string name="loading">صبر کنید</string>
+    <string name="please_wait">لطفا صبر کنید</string>
+    <string name="one_and_half_speed"><![CDATA[1<sup>1</sup>/<sub>2</sub>x]]></string>
+    <string name="half_speed_text"><![CDATA[<sup>1</sup>/<sub>2</sub>x]]></string>
+    <string name="please_wait_till_audio_is_parsed">
+لطفا صبر کنید تا صدا تجزیه شود و بعد از مدتی دوباره سعی کنید</string>
+    <string name="audio_mark_id">javascript:alert(audioMarkID(\'epub-media-overlay-playing\',\'%s\'))</string>
+    <string name="setmediaoverlaystyle">javascript:alert(setMediaOverlayStyle(\'%s\'))</string>
+    <string name="goto_highlight">javascript:alert(gotoHighlight(\'%s\'))</string>
+    <string name="getHighlightString">javascript:alert(getHighlightString(\'%s\'))</string>
+    <string name="sethighlightstyle">javascript:alert(setHighlightStyle(\'%s\'));</string>
+    <string name="css_tag"><![CDATA[<link rel=\"stylesheet\" type=\"text/css\" href=\"%s\">]]></string>
+    <string name="script_tag"><![CDATA[<script type=\"text/javascript\" src=\"%s\"></script>]]></string>
+    <string name="td_tag"><![CDATA[<td>%s</td></tr>]]></string>
+    <string name="tr_tag"><![CDATA[<tr><td></td><td>%s</td></tr>]]></string>
+    <string name="pattern">\\{\\{(-?\\d+\\.?\\d*)\\,(-?\\d+\\.?\\d*)\\}\\,\\s\\{(-?\\d+\\.?\\d*)\\,(-?\\d+\\.?\\d*)\\}\\}</string>
+    <!--<string name="pattern2">\\{\\{(-?\\d+\\.?\\d*)\\,(-?\\d+\\.?\\d*)\\}\\,\\s\\{(-?\\d+\\.?\\d*)\\,(-?\\d+\\.?\\d*)\\}\\}</string>-->
+    <string name="script_tag_method_call"><![CDATA[<script type=\"text/javascript\">%s</script>]]></string>
+  <string name="underline_highlights">
+      <span style="border-bottom: 1px solid #ff0000;">%s</span>
+  </string>
+    <string name="edit_notes">ذخیره یادداشت ها</string>
+    <string name="save_note">ذخیره یادداشت</string>
+    <string name="please_enter_note">لطفا یادداشت را بنویسید</string>
+    <string name="contents">محتویات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="debug_start_drag">Starting drag!</string>
+    <string name="debug_start_unable_drag">Starting unable to drag!</string>
+    <string name="dictionary">دیکشنری</string>
+    <string name="wikipedia">ویکیپدیا</string>
+    <string name="cannot_access_epub_message">اجازه دسترسی برای باز کردن این فایل داده نشده است</string>
+</resources>
